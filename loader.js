@@ -2,7 +2,11 @@ var loader=function(){};loader.prototype={load:function(e,t){this.loadCount=0;th
 
 // Basic loading!
 
-new loader().load(['assets/script/lib/pace.js']);,
+new loader().load(['script.js']);
+
+// Mutiple scripts!
+
+new loader().load(['script1.js','script2.js']);
 
 // Chain loading!
 
