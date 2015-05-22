@@ -14,7 +14,6 @@ new loader().load(['//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js']
 				console.log('script.js loaded');
 			}
 		);
-		new loader().load(['assets/script/lib/unveil.js']);
 	}
 );
 
